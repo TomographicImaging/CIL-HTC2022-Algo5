@@ -60,7 +60,7 @@ python main.py path/to/input/files path/to/output/files 3
 
 This is an example of reconstructing the `htc_2022_ta_sparse_example.mat` example dataset, which has a 60 degree angular range.
 
-|  Sample/ Angles 	|  Reference	|  90 	| 60 	| 30 	|
+|   	|  Ref	|  90 	| 60 	| 30 	|
 |----------	|-----	|---	|---	|---	|
 |   **ta**	| ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/main/test_data/htc2022_ta_full_recon_fbp_seg.png)	|  ![](results/AR90/htc2022_ta_full.png)	|  ![](results/AR60/htc2022_ta_full.png) 	|   ![](results/AR30/htc2022_ta_full.png)	|   
 |   **tb**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tb_full_recon_fbp_seg.png)	|  ![](results/AR90/htc2022_tb_full.png)	|  ![](results/AR60/htc2022_tb_full.png) 	|   ![](results/AR30/htc2022_tb_full.png)	|   
