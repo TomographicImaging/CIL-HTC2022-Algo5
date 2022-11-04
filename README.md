@@ -58,7 +58,7 @@ python main.py path/to/input/files path/to/output/files 3
 
 ## Examples
 
-This is an example of reconstructing the `htc_2022_ta_sparse_example.mat` example dataset, which has a 60 degree angular range.
+Examples of reconstructing the example datasets, where we have limited the angles to 90, 60 and 30 degree ranges. The 'ref' column is the given segmented result from the full dataset.
 
 |   	|  Ref	|  90 	| 60 	| 30 	|
 |----------	|-----	|---	|---	|---	|
@@ -67,11 +67,6 @@ This is an example of reconstructing the `htc_2022_ta_sparse_example.mat` exampl
 |   **tc**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tc_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_tc_full.png)	|  ![](results/AR60/htc2022_tc_full.png) 	|   ![](results/AR30/htc2022_tc_full.png)	|   
 |   **td**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_td_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_td_full.png)	|  ![](results/AR60/htc2022_td_full.png) 	|   ![](results/AR30/htc2022_td_full.png)	|   
 
-Left, is the given segmented result of performing FBP on the full dataset, right is our result of running our `main.py` with the file mentioned above:
-
-FBP on Full Dataset        |  Result of CIL-Algo5 - Score: 0.95337
-:-------------------------:|:-------------------------:
-![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/main/test_data/htc2022_ta_full_recon_fbp_seg.png)   |  ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo5/blob/main/results/htc2022_ta_sparse_example.png)
 
 ## Repository content
 - utils.py
