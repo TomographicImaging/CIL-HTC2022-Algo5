@@ -67,6 +67,8 @@ Examples of reconstructing the example datasets, where we have limited the angle
 |   **tc**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tc_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_tc_full.png)	|  ![](results/AR60/htc2022_tc_full.png) 	|   ![](results/AR30/htc2022_tc_full.png)	|   
 |   **td**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_td_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_td_full.png)	|  ![](results/AR60/htc2022_td_full.png) 	|   ![](results/AR30/htc2022_td_full.png)	|   
 
+Scores for each sample and angle:
+
 |   	|  90 	| 60 	| 30 	|
 |-----	|---	|---	|---	|
 |**ta**	|0.998	|0.951	|0.879	|0.806|
