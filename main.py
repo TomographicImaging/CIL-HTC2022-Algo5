@@ -87,7 +87,7 @@ def main():
 
     # Upper bound mask
     ub_val = 0.040859 # acrylic_attenuation in unit 1/mm
-    ub_mask_type = 2   # 1 basic 0.97 circle. 2 fitted
+    ub_mask_type = 1  # 1 basic 0.97 circle. 2 fitted
     basic_mask_radius = 0.97
 
     # Lower bound mask

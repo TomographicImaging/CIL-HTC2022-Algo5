@@ -54,7 +54,7 @@ def main():
     '''
     Example of use:
 
-    python main_full.py <input folder> <output folder> <difficulty> -alpha=0.01 -ang_range=60 -ang_start=0 -ub_mask_type=2 -lb_mask_type=0 -ub_val=0.040859 -lb_val=0.040859 -num_iters=2000 -seg_method=2
+    python main_full.py <input folder> <output folder> <difficulty> -alpha=0.01 -ang_range=60 -ang_start=0 -ub_val=0.040859 -lb_val=0.040859 -num_iters=2000 -seg_method=2
 
     This example uses all of the same parameters as main.py [except ang_start and range aren't set there, but by the data]. This was used to test that we get the same result by
     running this script with the htc_2022_ta_full.mat file, as we do with running main.py with the htc_2022_ta_sparse_example.mat, by checking the scores are equal.
@@ -69,8 +69,8 @@ def main():
     parser.add_argument('-alpha', type=float, required=True, help= "Alpha. This is required.")
     parser.add_argument('-ang_start', type=int, required=True, help="Starting angle, degrees. This is required.")
     parser.add_argument('-ang_range', type=int, required=True, help="Angular range, degrees. This is required.")
-    parser.add_argument('-ub_mask_type', type=int, required=True, choices=[1, 2],  help= "1 basic 0.97 circle. 2 fitted")
-    parser.add_argument('-lb_mask_type', type=int, required=True, choices=[0, 1],  help= "0:  lower bound 0 everywhere, 1: outer annulus equal to upper bound acrylic")
+    #parser.add_argument('-ub_mask_type', type=int, required=True, choices=[1, 2],  help= "1 basic 0.97 circle. 2 fitted")
+    #parser.add_argument('-lb_mask_type', type=int, required=True, choices=[0, 1],  help= "0:  lower bound 0 everywhere, 1: outer annulus equal to upper bound acrylic")
     parser.add_argument('-ub_val', type=float, required=True, help= "Upper bound value, acrylic_attenuation in unit 1/mm")
     parser.add_argument('-lb_val', type=float, required=True, help= "Lower bound value, could be changed to 0.04 or other smaller values")
     parser.add_argument('-num_iters', type=int, required=True, help="Number of iterations.")
@@ -95,12 +95,12 @@ def main():
 
     # Upper bound mask
     ub_val = args.ub_val # acrylic_attenuation in unit 1/mm
-    ub_mask_type = args.ub_mask_type   # 1 basic 0.97 circle. 2 fitted
+    ub_mask_type = 1  # 1 basic 0.97 circle. 2 fitted
     basic_mask_radius = 0.97
 
 
     # Lower bound mask
-    lb_mask_type = args.lb_mask_type  # 0:  lower bound 0 everywhere, 1: outer annulus equal to upper bound acrylic
+    lb_mask_type = 0  # 0:  lower bound 0 everywhere, 1: outer annulus equal to upper bound acrylic
     lb_inner_radius = 200
     lb_val = args.lb_val  # could be changed to 0.04 or other smaller values
 
