@@ -62,7 +62,7 @@ Examples of reconstructing the example datasets, where we have limited the angle
 
 |   	|  Ref	|  90 	| 60 	| 30 	|
 |----------	|-----	|---	|---	|---	|
-|   **ta**	| ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/main/test_data/htc2022_ta_full_recon_fbp_seg.png)	|  ![](results/AR90/htc2022_ta_full.png)	|  ![](results/AR60/htc2022_ta_full.png) 	|   ![](results/AR30/htc2022_ta_full.png)	|   
+|   **ta**	| ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/main/test_data/htc2022_ta_full_recon_fbp_seg.png)	|  Score: 0.95118 ![](results/AR90/htc2022_ta_full.png)	|  ![](results/AR60/htc2022_ta_full.png) 	|   ![](results/AR30/htc2022_ta_full.png)	|   
 |   **tb**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tb_full_recon_fbp_seg.png)	|  ![](results/AR90/htc2022_tb_full.png)	|  ![](results/AR60/htc2022_tb_full.png) 	|   ![](results/AR30/htc2022_tb_full.png)	|   
 |   **tc**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tc_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_tc_full.png)	|  ![](results/AR60/htc2022_tc_full.png) 	|   ![](results/AR30/htc2022_tc_full.png)	|   
 |   **td**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_td_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_td_full.png)	|  ![](results/AR60/htc2022_td_full.png) 	|   ![](results/AR30/htc2022_td_full.png)	|   
