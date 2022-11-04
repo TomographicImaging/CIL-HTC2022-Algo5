@@ -86,6 +86,28 @@ Scores for each sample and angle:
 - test_data
   - htc2022_ta_full_recon_fbp_seg.png
   - htc2022_ta_sparse_example.mat
+- results
+  - htc2022_ta_sparse_example.png
+  - AR30
+    - htc2022_ta_full.png 
+    - htc2022_tb_full.png
+    - htc2022_tc_full.png
+    - htc2022_td_full.png
+  - AR60
+    - htc2022_ta_full.png 
+    - htc2022_tb_full.png
+    - htc2022_tc_full.png
+    - htc2022_td_full.png
+  - AR90
+    - htc2022_ta_full.png 
+    - htc2022_tb_full.png
+    - htc2022_tc_full.png
+    - htc2022_td_full.png 
+  - AR360
+    - htc2022_ta_full.png 
+    - htc2022_tb_full.png
+    - htc2022_tc_full.png
+    - htc2022_td_full.png 
 
 ## License
 All files in the repository come with the [Apache-v2.0](https://www.apache.org/licenses/LICENSE-2.0) license unless differently specified.
