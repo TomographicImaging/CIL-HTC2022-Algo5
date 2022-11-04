@@ -62,10 +62,10 @@ This is an example of reconstructing the `htc_2022_ta_sparse_example.mat` exampl
 
 |  Sample/ Angles 	|  Reference	|  90 	| 60 	| 30 	|
 |----------	|-----	|---	|---	|---	|
-|   **ta**	| ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/main/test_data/htc2022_ta_full_recon_fbp_seg.png)	|  ![](results_final/AR90/htc2022_ta_full.png)	|  ![](results_final/AR60/htc2022_ta_full.png) 	|   ![](results_final/AR30/htc2022_ta_full.png)	|   
-|   **tb**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tb_full_recon_fbp_seg.png)	|  ![](results_final/AR90/htc2022_tb_full.png)	|  ![](results_final/AR60/htc2022_tb_full.png) 	|   ![](results_final/AR30/htc2022_tb_full.png)	|   
-|   **tc**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tc_full_recon_fbp_seg.png)	| ![](results_final/AR90/htc2022_tc_full.png)	|  ![](results_final/AR60/htc2022_tc_full.png) 	|   ![](results_final/AR30/htc2022_tc_full.png)	|   
-|   **td**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_td_full_recon_fbp_seg.png)	| ![](results_final/AR90/htc2022_td_full.png)	|  ![](results_final/AR60/htc2022_td_full.png) 	|   ![](results_final/AR30/htc2022_td_full.png)	|   
+|   **ta**	| ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/main/test_data/htc2022_ta_full_recon_fbp_seg.png)	|  ![](results/AR90/htc2022_ta_full.png)	|  ![](results/AR60/htc2022_ta_full.png) 	|   ![](results/AR30/htc2022_ta_full.png)	|   
+|   **tb**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tb_full_recon_fbp_seg.png)	|  ![](results/AR90/htc2022_tb_full.png)	|  ![](results/AR60/htc2022_tb_full.png) 	|   ![](results/AR30/htc2022_tb_full.png)	|   
+|   **tc**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_tc_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_tc_full.png)	|  ![](results/AR60/htc2022_tc_full.png) 	|   ![](results/AR30/htc2022_tc_full.png)	|   
+|   **td**	|   ![](https://github.com/TomographicImaging/CIL-HTC2022-Algo1/blob/improve_table/data/segmented_references/htc2022_td_full_recon_fbp_seg.png)	| ![](results/AR90/htc2022_td_full.png)	|  ![](results/AR60/htc2022_td_full.png) 	|   ![](results/AR30/htc2022_td_full.png)	|   
 
 Left, is the given segmented result of performing FBP on the full dataset, right is our result of running our `main.py` with the file mentioned above:
 
